@@ -172,3 +172,67 @@ input[type="submit"]:hover {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.bakery-img {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    margin: 60px auto;
+}
+
+.bakery-img1 {
+    background-image: url('res/bakery1.png');
+}
+
+.bakery-img2 {
+    background-image: url('res/bakery2.png');
+}
+
+.bakery-img3 {
+    background-image: url('res/bakery3.png');
+}
+
+.bakery-img4 {
+    background-image: url('res/bakery4.png');
+}
+
+.bakery-img5 {
+    background-image: url('res/bakery5.png');
+}
+
+.bakery-img6 {
+    background-image: url('res/bakery6.png');
+}
+
+.bakery-img7 {
+    background-image: url('res/tea.png');
+}
+
+.main-bakery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: black !important;
+    text-align: center;
+    font-size: 28px;
+}
+
+.main-bakery h3 {
+    margin-top: 220px;
+}
+
+.bakery-img:hover {
+    cursor: pointer;
+    filter: brightness(0.7);
+}
+
+.info-section:hover {
+    filter: brightness(0.7);
+}
+
+.full {
+    height: 100%;
+    padding-top: 120px;
+}
