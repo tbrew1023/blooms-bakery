@@ -60,6 +60,115 @@ a:hover {
     background-image: url("res/backdrop.svg");
     background-position: center;
     background-size: contain;
+    padding: 80px;
 }
 
+.info-section {
+    display: flex;
+    margin:auto;
+    width: max-content;
+}
 
+.info-text {
+    width: 600px;
+    padding: 40px;
+}
+
+.info-image {
+    background: black;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bakery-image {
+    background-image: url("res/bakery1.png");
+}
+
+.tea-image {
+    background-image: url("res/tea.png");
+}
+
+p {
+    color: #fd6aa8;
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.footer {
+    background-color: #fd6aa8;
+    color: white;
+    padding: 80px;
+}
+
+.footer-social {
+    margin: auto;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer p {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.news-letter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 60px 0px;
+}
+
+input[type="text"] {
+    background: rgba(white, 0.5) !important;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    padding: 5px 10px 5px 10px;
+}
+
+input[type="submit"] {
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    height: 25px;
+    color: white;
+    background: #a1d15f;
+    margin-left: -4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    filter: brightness(0.5);
+}
+
+.logo-footer {
+    background-image: url('res/green-boi.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.footer ul {
+    width: max-content;
+    margin: auto;
+}
+
+.footer-social {
+    margin: auto;
+    background-image: url("res/social.png");
+    height: 60px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
